@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Image Voting</title>
+</head>
+<body>
+    <div class="container">
+        <h2 id="image-name"></h2> <!-- Display the image name here -->
+        <img id="image" src="{{ random_image }}" alt="Image">
+        <div class="buttons">
+            <button id="dislike" class="red">Dislike</button>
+            <button id="like" class="green">Like</button>
+        </div>
+    </div>
+    <script>
+        const imageElement = document.getElementById('image');
+        const imageNameElement = document.getElementById('image-name');
+        const dislikeButton = document.getElementById('dislike');
+        const likeButton = document.getElementById('like');
+
+        // Function to load a new random image
+        function loadNewRandomImage() {
+            fetch('/get_random_image')
+            .then(response => {
+                if (response.status === 200) {
+                    return response.text();
+                } else {
+                    console.error('No images available');
+                    throw new Error('No images available');
+                }
+            })
+            .then(data => {
+                if (data) {
+                    imageElement.src = data;
+                    // Display the image name
+                    const imageFilename = data.split('\\').slice(-1)[0].replace('.png','');
+                    imageNameElement.textContent = imageFilename;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        // Event listeners for buttons
+        dislikeButton.addEventListener('click', () => {
+            recordChoice('dislike');
+        });
+
+        likeButton.addEventListener('click', () => {
+            recordChoice('like');
+        });
+
+        // Function to record user choice
+        function recordChoice(choice) {
+            // Send the user choice and image filename to the server
+            const imageFilename = imageElement.src.split('/').slice(-1)[0]; // Extract the filename from the URL
+            fetch('/record_choice', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `choice=${choice}&image_filename=${imageFilename}`,
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Load a new random image after recording the choice
+                    loadNewRandomImage();
+                } else {
+                    console.error('Failed to record choice');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        // Load the initial random image
+        loadNewRandomImage();
+    </script>
+</body>
+</html>

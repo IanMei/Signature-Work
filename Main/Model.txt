@@ -1,0 +1,2 @@
+(((best quality))),(((ultra detailed))),(((masterpiece))),illustration,chinese poetry,ancient road,fragrant flowers,clear sky,abandoned city,landscape
+Steps: 40, Sampler: Euler a, CFG scale: 9, Seed: 3142045023, Size: 1024x1024, Model hash: 925997e9

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #output-image {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+        #output-text {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Generator</h1>
+    
+    <!-- Input Text Box -->
+    <form method="post">
+        <label for="input-text">Enter Text:</label>
+        <input type="text" id="input-text" name="input-text" placeholder="Type something..." />
+    
+        <!-- Submit Button -->
+        <button type="submit">Generate Image</button>
+    </form>
+    
+    <!-- Output Image Box -->
+    {% if generated_image_url %}
+    <div id="output-container">
+        <img id="output-image" src="{{ generated_image_url }}" alt="Generated Image" />
+        <p id="output-text">Input Text: {{ input_text }}</p>
+        <a href="{{ download_url }}" download="{{ download_filename }}">
+            <button>Download Image</button>
+        </a>
+    </div>
+    {% endif %}
+</body>
+</html>
