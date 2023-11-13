@@ -53,4 +53,4 @@ def index():
     return render_template('index.html', generated_image_url=generated_image_url, input_text=input_text, predefined_text=predefined_text)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host = "192.168.2.28",port = 5000)
