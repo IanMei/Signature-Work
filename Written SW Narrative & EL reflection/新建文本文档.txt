@@ -1,0 +1,10 @@
+Hi, I need some support to help me draft files about my signature work, which is a project that shows my learning outcome and exploration during my undergraduate study. My project is called Poem into Drawings, which is a project called Verse Into Vision (VIV) which is a Tool to Visualize Ancient Chinese Poems with AI. In the project, there is couple of things that I done -Developed a comprehensive web platform that transforms ancient Chinese poetry into visual imagery using OpenAI's APIs,
+including ChatGPT-3.5 and DALL-E. Engineered a system that refines image generation to accurately represent the content
+and mood of each poem, allowing users to input poetry lines and receive corresponding images along with the generation
+prompts. Ensured versatility and future scalability by maintaining a modular design the website, with provisions for
+integrating various image generation and poetry translation models.
+• Accomplished the conversion of 351 poems by Du Fu from the Complete Collection of Tang Poetry into over 1000
+distinct images through advanced backend programming.
+• Integrated a secondary website featuring a Tinder-like interface for user interaction, where visitors can 'Like' or 'Dislike' the
+generated images, enabling the collection of data on public preferences and perceptions of the poetic imagery.
+• Utilized Python's Django framework for development, with deployment executed on university virtual machines and a selfmanaged server.  
