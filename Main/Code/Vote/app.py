@@ -8,7 +8,7 @@ app = Flask(__name__)
 # CSV file to store user data
 CSV_FILE = 'users_data.csv'
 # IMAGE_FOLDER = '../Generate_images/Images'
-IMAGE_FOLDER = 'static/images'
+IMAGE_FOLDER = 'static/images2'
 
 @app.route('/')
 def index():
@@ -45,9 +45,9 @@ def choose_random_image():
     image_files = [f for f in os.listdir(IMAGE_FOLDER) if os.path.isfile(os.path.join(IMAGE_FOLDER, f))]
     if image_files:
         random_image_filename = random.choice(image_files)
-        random_image = os.path.join('static/images', random_image_filename)
+        random_image = os.path.join(IMAGE_FOLDER, random_image_filename)
         random_image_name = os.path.basename(random_image_filename)
-        return random_image, random_image_name
+        return random_image, random_image_name[:-2]
     else:
         return None
 

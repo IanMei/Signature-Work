@@ -47,7 +47,7 @@
         // Function to record user choice
         function recordChoice(choice) {
             // Send the user choice and image filename to the server
-            const imageFilename = imageElement.src.split('/').slice(-1)[0]; // Extract the filename from the URL
+            const imageFilename = imageElement.src.split('\\').slice(-1)[0]; // Extract the filename from the URL
             fetch('/record_choice', {
                 method: 'POST',
                 headers: {

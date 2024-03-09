@@ -36,7 +36,8 @@
                 if (data) {
                     imageElement.src = data;
                     // Display the image name
-                    const imageFilename = data.split('\\').slice(-1)[0].replace('.png','');
+                    const temp = data.split('\\')[1].replace('_','——');
+                    const imageFilename = temp.replace('.png','');
                     imageNameElement.textContent = imageFilename;
                 }
             })
