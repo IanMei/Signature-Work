@@ -8,7 +8,7 @@ app = Flask(__name__)
 # CSV file to store user data
 CSV_FILE = 'users_data.csv'
 # IMAGE_FOLDER = '../Generate_images/Images'
-IMAGE_FOLDER = 'static/images2'
+IMAGE_FOLDER = 'static/images'
 
 @app.route('/')
 def index():
