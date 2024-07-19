@@ -1,0 +1,35 @@
+Chinese-Poetry. “Chinese-Poetry/Chinese-Poetry: The Most Comprehensive Database of Chinese Poetry最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。.” GitHub, github.com/chinese-poetry/chinese-poetry. Accessed 9 Mar. 2024. 
+
+Cui, Yiwen. “从索绪尔的语言符号学思想解读中国古诗词.” 文学界: 理论版 , vol. 2, 2012, pp. 56–57. 
+
+Hou, Yufang, and Anette Frank. “Analyzing Sentiment in Classical Chinese Poetry.” Proceedings of the 9th SIGHUM Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities (LaTeCH), 2015, pp.15-24, doi:10.18653/v1/w15-3703. 
+
+Huang, Guowen. “功能语言学分析对翻译研究的启示.” 外语与外语教学, vol. 5, 2002, pp. 1-11.
+
+Johnson, Khari. “OpenAI Debuts Dall-e for Generating Images from Text.” VentureBeat, 5 Jan. 2021, venturebeat.com/business/openai-debuts-dall-e-for-generating-images-from-text/. 
+
+Monti, Niccolò. “The Unmeaning Machine. Cybernetics from Semiotics to AI.” Philosophy Kitchen. Rivista Di Filosofia Contemporanea, vol. 18, 2023, pp. 89–103, doi:10.13135/2385-1945/7834. 
+
+Nadin, Mihai. “Semiotic Machine.” Public Journal of Semiotics, vol. 1, no. 1, 1 Jan. 2007, pp. 85–114, doi:10.37693/pjos.2007.1.8815. 
+
+OpenAI. The DALL·E 2 Prompt Book. Version 1.02, 2022, https://dallery.gallery/wp-content/uploads/2022/07/The-DALL%C2%B7E-2-prompt-book-v1.02.pdf.
+
+Radford, Alec, et al. “Learning Transferable Visual Models from Natural Language Supervision.” arXiv.Org, 26 Feb. 2021, arxiv.org/abs/2103.00020.
+
+Radford, Alec, et al. "Improving language understanding by generative pre-training." OpenAI, 2018, https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf.
+
+Pan, Jianping. “中国古代意境理论的生成及古诗意境赏析” Journal of Shanxi Radio & TV University, May. 2007, pp. 83-83.
+
+Poschinger, Felix, and Robert Coon. “Toward a Semiotic Pyramid: Language Studies, Ai, and Knowledge Exchange Economy.” Language and Semiotic Studies, vol. 9, no. 3, 25 Aug. 2023, pp. 393–407, doi:10.1515/lass-2023-0016. 
+
+Ramesh, Aditya, et al. “Hierarchical Text-Conditional Image Generation with Clip Latents.” arXiv.Org, 13 Apr. 2022, arxiv.org/abs/2204.06125. 
+
+Sartre, Jean-Paul. The Imaginary: A Phenomenological Psychology of the Imagination. Routledge, 2004, pp. 120-123
+
+Shannon, C. E. “A Mathematical Theory of Communication.” Bell System Technical Journal, vol. 27, no. 4, Oct. 1948, pp. 623–656, doi:10.1002/j.1538-7305.1948.tb00917.x. 
+
+Zhang, Wei, et al. “Sentiment Term Extraction and Application of Chinese Ancient Poetry Text for Digital Humanities.” Journal of Library Science in China, vol. 47, July 2021, pp. 113–131, doi:10. 13530 / j. cnki. jlis. 2021033. 
+
+Zhao, Guangfa. “浅析中国古诗中的隐喻意象翻译” Journal of Liaoning Economic Management Cadre Institute, 2013, pp. 44-45. 
+
+“全唐詩 - 中國哲學書電子化計劃.” Edited by Donald Sturgeon, Chinese Text Project, ctext.org/quantangshi/zh. Accessed 10 Mar. 2024. 
